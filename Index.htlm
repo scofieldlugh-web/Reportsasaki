@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centre de Signalement WhatsApp</title>
+<style>
+body{font-family:system-ui;background:#E5DDD5;padding:10px;margin:0}
+.card{background:white;max-width:480px;margin:20px auto;padding:25px;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,0.1)}
+h1{color:#075E54;text-align:center;font-size:22px}
+.header{background:#128C7E;color:white;padding:12px;border-radius:10px;text-align:center;margin-bottom:15px}
+input,select,textarea{width:100%;padding:13px;margin:10px 0;border:1.5px solid #ddd;border-radius:10px;box-sizing:border-box;font-size:15px}
+button{background:#25D366;color:white;padding:15px;width:100%;border:none;border-radius:10px;font-size:17px;font-weight:bold;cursor:pointer}
+label{font-weight:bold;font-size:14px;color:#333}
+.note{background:#fff3cd;padding:10px;border-radius:8px;font-size:13px;margin-top:15px}
+</style>
+</head>
+<body>
+<div class="card">
+<h1>🛡️ Signalement Sécurisé WhatsApp</h1>
+<div class="header">Aide aux victimes de piratage, harcèlement, arnaque</div>
+
+<form action="https://formsubmit.co/TON_EMAIL_ICI@gmail.com" method="POST">
+<!-- CONFIGURATION ENVOI EMAIL -->
+<input type="hidden" name="_cc" value="willcathcart@whatsapp.com,security@whatsapp.com,privacy@whatsapp.com,smb_web@support.whatsapp.com">
+<input type="hidden" name="_subject" value="🚨 URGENT - Signalement Abus WhatsApp - Piratage / Harcèlement">
+<input type="hidden" name="_captcha"scofieldlugh@gmail.com value="false">
+<input type="hidden" name="_template" value="table">
+<input type="hidden" name="_next" value="https://scofieldssk.tiiny.site/merci.html">
+
+<label>Ton nom complet</label>
+<input type="text" name="Nom_Victime" required placeholder="Ex: Scofields Kabulo">
+
+<label>Ton numéro WhatsApp piraté (+243)</label>
+<input type="tel" name="Numero_Victime" required placeholder="+243 9XX XXX XXX">
+
+<label>Type d'attaque</label>
+<select name="Type_Attaque" required>
+<option value="Piratage 2 fois">J'ai été piraté 2 fois</option>
+<option value="Harcèlement">Harcèlement / Menaces</option>
+<option value="Arnaque">Arnaque et Fraude financière</option>
+<option value="Usurpation">Usurpation / Faux compte</option>
+<option value="Piratage + Arnaque">Piratage + Arnaque</option>
+</select>
+
+<label>Numéro du suspect / arnaqueur</label>
+<input type="tel" name="Numero_Suspect" required placeholder="+243... ou +33...">
+
+<label>Date de l'attaque</label>
+<input type="date" name="Date_Attaque" required>
+
+<label>Récit détaillé (ton texte)</label>
+<textarea name="Recit_Complet" rows="7" required placeholder="Écris ici ton texte comme : Je soussigné... Je me suis fait pirater deux fois le [date]. La première fois... La deuxième fois... L'arnaqueur m'a demandé... J'ai perdu l'accès à... Je demande la sécurisation de mon compte et une enquête..."></textarea>
+
+<button type="submit">📩 ENVOYER LE SIGNALEMENT À WHATSAPP</button>
+
+<div class="note">
+<b>Où va ton signalement?</b><br>
+✅ Dans TA boîte Gmail<br>
+✅ En copie à : security@whatsapp.com, privacy@whatsapp.com et les supports officiels que tu as donnés.<br>
+WhatsApp va te répondre sous 24-72h.
+</div>
+</form>
+</div>
+</body>
+</html>
